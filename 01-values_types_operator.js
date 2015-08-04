@@ -1,12 +1,39 @@
+'use strict';
+
+// JSLint
+// 
+
+// Grunt.js
+// Gulp
+// window.
+
+var name = 'Ball',
+	number = 1,
+	isTrue = true;
+
+
+
+Expression / Statement
+
+console.log(name);
+x = 1 + 2;
+if (name == 'Ball') ? 'Hello':'World';
+
+
 /**************************
  * Number
  * ***********************/
 
 // produce new value with arthmetic
-100 + 4 * 11 									// result from expression is new number
+100 + 4 * 11 - 2 									// result from expression is new number
 
 // '/' '*' '+' '-'
 // with same precedence will proceed from left to right
+
+var a = '42';
+var b = 1;
+console.log(b + a);
+
 
 100 / 0												// result is NaN (not a number)
 
@@ -21,8 +48,17 @@
 
 "A new line character is written like \"\\n\""
 
+'A new line character is written "like"'
+
 // String concatenate
 "con" + "cat" + "e" + "nate"
+
+// Automatic type conversion
+console.log(8 * null)										// 0
+console.log("5" - 1)										// 4
+console.log("5" + 1)										// "51"
+console.log("five" * 2)									// NaN
+console.log(false == 0)									// true
 
 // Unary Operator
 console.log(typeof 4.5)
@@ -61,13 +97,6 @@ console.log(foo === null)								// false
 // Null is primitive data type
 console.log(typeof null)								// object
 console.log(typeof undefined)						// undefined
-
-// Automatic type conversion
-console.log(8 * null)										// 0
-console.log("5" - 1)										// 4
-console.log("5" + 1)										// "51"
-console.log("five" * 2)									// NaN
-console.log(false == 0)									// true
 
 // While loop
 // How to print 0, 2, 4, 6, 8
